@@ -1,0 +1,51 @@
+body {
+	 background: url('Minda.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+#main-header {
+	background-color: rgba(0, 126, 229, .2);
+	height: 90px;
+	width: 95%;
+	margin: 0 auto;
+}
+#main-header h1 {
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+	font-size: 42px;
+}
+#main-navigation {
+	text-align: center;
+	margin: 15px 0;
+}
+.btn {
+	padding: 8px 20px;
+	background-color: rgba(0, 158, 216, .2);
+	color: #fff;
+	cursor: pointer;
+	outline: none !important;
+	box-shadow: none;
+	border: none;
+	transition: all .3s;
+	font-size: 20px;
+}
+.btn:hover, .btn:focus, .btn:active {
+	color: #fff;
+	background-color: rgb(25, 38, 58);
+	box-shadow: none;
+	border: none;
+}
+#gallery img {
+	padding: 10px;
+}
+ button.mixitup-control-active {
+	background-color: rgb(25, 38, 58);
+}
+
